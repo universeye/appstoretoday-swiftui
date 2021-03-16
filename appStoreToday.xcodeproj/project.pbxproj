@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF26E0FE25E8CC4C004D9411 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26E0FD25E8CC4C004D9411 /* Home.swift */; };
+		BF26E10A25E94444004D9411 /* LazyGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26E10925E94444004D9411 /* LazyGrid.swift */; };
+		BF26E11225E944C2004D9411 /* PeekScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26E11125E944C2004D9411 /* PeekScrolling.swift */; };
+		BF26E11A25EDDC41004D9411 /* LazyGridd2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26E11925EDDC41004D9411 /* LazyGridd2.swift */; };
+		BF26E12225EE1131004D9411 /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26E12125EE1131004D9411 /* MatchedView.swift */; };
+		BF2B0A0925EF2E9700B20BE1 /* longPresseGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B0A0825EF2E9700B20BE1 /* longPresseGesture.swift */; };
 		BF66941A25DF5E80005EC91B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF66941925DF5E80005EC91B /* AppDelegate.swift */; };
 		BF66941C25DF5E80005EC91B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF66941B25DF5E80005EC91B /* SceneDelegate.swift */; };
 		BF66941E25DF5E80005EC91B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF66941D25DF5E80005EC91B /* ContentView.swift */; };
@@ -15,6 +21,8 @@
 		BF66942625DF5E83005EC91B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF66942425DF5E83005EC91B /* LaunchScreen.storyboard */; };
 		BF66943125DF5E83005EC91B /* appStoreTodayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF66943025DF5E83005EC91B /* appStoreTodayTests.swift */; };
 		BF66943C25DF5E83005EC91B /* appStoreTodayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF66943B25DF5E83005EC91B /* appStoreTodayUITests.swift */; };
+		BF66944D25DF8426005EC91B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF66944C25DF8426005EC91B /* DetailView.swift */; };
+		BF66945325DF85A8005EC91B /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = BF66945225DF85A8005EC91B /* SwiftUIX */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF26E0FD25E8CC4C004D9411 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		BF26E10925E94444004D9411 /* LazyGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGrid.swift; sourceTree = "<group>"; };
+		BF26E11125E944C2004D9411 /* PeekScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeekScrolling.swift; sourceTree = "<group>"; };
+		BF26E11925EDDC41004D9411 /* LazyGridd2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyGridd2.swift; sourceTree = "<group>"; };
+		BF26E12125EE1131004D9411 /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
+		BF2B0A0825EF2E9700B20BE1 /* longPresseGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = longPresseGesture.swift; sourceTree = "<group>"; };
 		BF66941625DF5E80005EC91B /* appStoreToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appStoreToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF66941925DF5E80005EC91B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF66941B25DF5E80005EC91B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,7 @@
 		BF66943725DF5E83005EC91B /* appStoreTodayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appStoreTodayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF66943B25DF5E83005EC91B /* appStoreTodayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appStoreTodayUITests.swift; sourceTree = "<group>"; };
 		BF66943D25DF5E83005EC91B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF66944C25DF8426005EC91B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF66945325DF85A8005EC91B /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +92,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF26E10225E9433F004D9411 /* AppStoreToday */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppStoreToday;
+			sourceTree = "<group>";
+		};
 		BF66940D25DF5E80005EC91B = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +124,15 @@
 			children = (
 				BF66941925DF5E80005EC91B /* AppDelegate.swift */,
 				BF66941B25DF5E80005EC91B /* SceneDelegate.swift */,
+				BF26E0FD25E8CC4C004D9411 /* Home.swift */,
 				BF66941D25DF5E80005EC91B /* ContentView.swift */,
+				BF66944C25DF8426005EC91B /* DetailView.swift */,
+				BF26E10925E94444004D9411 /* LazyGrid.swift */,
+				BF26E11925EDDC41004D9411 /* LazyGridd2.swift */,
+				BF26E12125EE1131004D9411 /* MatchedView.swift */,
+				BF2B0A0825EF2E9700B20BE1 /* longPresseGesture.swift */,
+				BF26E11125E944C2004D9411 /* PeekScrolling.swift */,
+				BF26E10225E9433F004D9411 /* AppStoreToday */,
 				BF66941F25DF5E83005EC91B /* Assets.xcassets */,
 				BF66942425DF5E83005EC91B /* LaunchScreen.storyboard */,
 				BF66942725DF5E83005EC91B /* Info.plist */,
@@ -152,6 +183,9 @@
 			dependencies = (
 			);
 			name = appStoreToday;
+			packageProductDependencies = (
+				BF66945225DF85A8005EC91B /* SwiftUIX */,
+			);
 			productName = appStoreToday;
 			productReference = BF66941625DF5E80005EC91B /* appStoreToday.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +257,9 @@
 				Base,
 			);
 			mainGroup = BF66940D25DF5E80005EC91B;
+			packageReferences = (
+				BF66945125DF85A8005EC91B /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = BF66941725DF5E80005EC91B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,8 +304,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF66941A25DF5E80005EC91B /* AppDelegate.swift in Sources */,
+				BF26E10A25E94444004D9411 /* LazyGrid.swift in Sources */,
+				BF26E11225E944C2004D9411 /* PeekScrolling.swift in Sources */,
+				BF66944D25DF8426005EC91B /* DetailView.swift in Sources */,
+				BF26E0FE25E8CC4C004D9411 /* Home.swift in Sources */,
 				BF66941C25DF5E80005EC91B /* SceneDelegate.swift in Sources */,
 				BF66941E25DF5E80005EC91B /* ContentView.swift in Sources */,
+				BF26E12225EE1131004D9411 /* MatchedView.swift in Sources */,
+				BF26E11A25EDDC41004D9411 /* LazyGridd2.swift in Sources */,
+				BF2B0A0925EF2E9700B20BE1 /* longPresseGesture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +641,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BF66945125DF85A8005EC91B /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BF66945225DF85A8005EC91B /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF66945125DF85A8005EC91B /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BF66940E25DF5E80005EC91B /* Project object */;
 }
