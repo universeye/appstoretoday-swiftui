@@ -23,7 +23,7 @@ struct MatchedView: View {
             }
                 
                 
-                //two different circle they will link together because of the id tag is the same
+                //two different circle they will link together because of the id tag is the same 
             if show {
                 ScrollView {
                     VStack {

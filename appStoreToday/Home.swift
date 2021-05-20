@@ -26,7 +26,7 @@ struct Home: View {
                         Text("LazyH")
                     }
                 
-                PeekScrolling()
+                MatchedView()
                     .tabItem {
                         Image(systemName: "scroll.fill")
                         Text("Peek")

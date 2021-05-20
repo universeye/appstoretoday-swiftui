@@ -60,10 +60,10 @@ struct AppofTheDayCard: View {
                     .cornerRadius(10)
                     .matchedGeometryEffect(id: "logo", in: namespace)
                 VStack(alignment: .leading, spacing: 4) {
-                    Text("Design Code")
+                    Text("Musarts")
                         .font(.body).bold()
                         .matchedGeometryEffect(id: "appName", in: namespace)
-                    Text("Learn SwiftUI,UI Design and React")
+                    Text("Discover Music From Different Sources")
                         .font(.caption)
                         .matchedGeometryEffect(id: "appDescrip", in: namespace)
                 }

@@ -26,7 +26,7 @@ struct LazyGridd2: View {
                 }
                 .padding()
             } //ScrollView
-            .background(Color.blue) //set it to blue so its easy to see
+            .background(Color.black) //set it to blue so its easy to see
             .frame(width: 375, height: 600)
         }
     }
