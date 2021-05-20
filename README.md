@@ -1,6 +1,6 @@
 # SwiftUI App Store Today Mock
 
-App store today page created in SwiftUI, using matchedGeometryEffect.
+App store today page animation created in SwiftUI, using matchedGeometryEffect.
  
 
 # Menu
